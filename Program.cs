@@ -1,8 +1,10 @@
-namespace CuddlePet
-{
-    var Pet = new Pet();
+using CuddlePet;
+
+    var Pet = new CuddlePet();
+    Pet.MainMenu();
     
-}
+    
+
 
 
 // Funksjonaliter
