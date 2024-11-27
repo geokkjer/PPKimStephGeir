@@ -1,4 +1,4 @@
-namespace CuddlePet
+namespace MasterSpace
 {
     public class Pet
     {
