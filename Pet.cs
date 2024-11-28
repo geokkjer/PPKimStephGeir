@@ -1,3 +1,5 @@
+using System.Xml.Linq;
+
 namespace MasterSpace
 {
     public class Pet
@@ -8,8 +10,7 @@ namespace MasterSpace
         bool Cuddle;
         bool Hungry;
         bool NeedToilet;
-
-        void PetConstructor(string name, string type, int age)
+        public Pet(string name, string type, int age)
         {
             Name = name;
             Type = type;
@@ -17,6 +18,19 @@ namespace MasterSpace
             Cuddle = true;
             Hungry = false;
             NeedToilet = false;
+
         }
+        public void InteractMenu()
+        {
+            Console.WriteLine(" Hey " + Name + "!");
+            Console.WriteLine(" Type: " + Type);
+            Console.WriteLine(" Age " + Age);
+            Console.WriteLine(" Has been cuddled " + Cuddle);
+            Console.WriteLine(" Is starving " + Hungry);
+            Console.WriteLine(" Need to poop " + NeedToilet);
+            Console.WriteLine("\nwhat do you want to do?");
+        
+        }
+
     }
 }
