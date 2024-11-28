@@ -54,8 +54,7 @@ namespace MasterSpace
                         Feed();
                         break;
                     case "3":
-                        NeedToilet = true;
-                        Console.WriteLine("Buisness Done!");
+                        Walk();
                         break;
                     case "4":
                         running = false;
