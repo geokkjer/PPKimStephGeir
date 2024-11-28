@@ -26,8 +26,8 @@ namespace MasterSpace
             Console.WriteLine(" Type: " + Type);
             Console.WriteLine(" Age " + Age);
             Console.WriteLine((Cuddle) ? " Need to cuddle " : " Has been cuddled ");
-            Console.WriteLine(" Is starving " + Hungry);
-            Console.WriteLine(" Need to poop " + NeedToilet);
+            Console.WriteLine((Hungry) ? " Is starving " : " Has a full belly");
+            Console.WriteLine((NeedToilet) ? " Need to poop " : " Doesn't need to to poop");
             Console.WriteLine("\nwhat do you want to do?");
         }
 
