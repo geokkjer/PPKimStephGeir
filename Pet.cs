@@ -29,7 +29,6 @@ namespace MasterSpace
             Console.WriteLine(" Is starving " + Hungry);
             Console.WriteLine(" Need to poop " + NeedToilet);
             Console.WriteLine("\nwhat do you want to do?");
-        
         }
 
     }
